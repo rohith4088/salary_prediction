@@ -35,20 +35,19 @@ cd salary-prediction
 pip install -r requirements.txt
 
 3.Usage
-
 Run the Flask application:
 python app.py
 Open your web browser and go to http://127.0.0.1:5000/ to access the salary prediction web application.
 Enter the years of experience, and the application will provide a salary prediction.
+
 4.Dependencies
 Flask
 NumPy
 Pandas
 Scikit-learn
-Contributing
 
-5.Contributions are welcome! If you find any issues or have suggestions for improvement, please create a new issue or submit a pull request.
+5.Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please create a new issue or submit a pull request.
 
 6.License
-
 This project is licensed under the MIT License.
