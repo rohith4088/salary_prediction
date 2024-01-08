@@ -18,6 +18,13 @@ def predict_api():
     output = model.predict(new_data)
     print(output)
     return jsonify(output.tolist())
+@app.route('/predict',methods = ['POST'])
+def predict():
+    data = [float(x) for x in request.form.values()]
+    final_input = scaling.transform(np.array(data).reshape(1,-1))
+    print(final_input)
+    output = model.predict(final_input)
+    return render_template("home.html",prediction_text = "the salary predicted is -->{}".format(output))
 
 if __name__ == "__main__":
     app.run(debug = True)
