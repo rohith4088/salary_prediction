@@ -25,36 +25,30 @@ The project structure is as follows:
 
 ## Installation
 
-1. Clone the repository:
+1.Clone the repository:
 
 ```bash
 git clone https://github.com/rohith4088/salary_prediction.git
-Navigate to the project directory:
-bash
-Copy code
+## Navigate to the project directory:
 cd salary-prediction
-Install the required dependencies:
-bash
-Copy code
+2.Install the required dependencies:
 pip install -r requirements.txt
-Usage
+
+3.Usage
 
 Run the Flask application:
-bash
-Copy code
 python app.py
 Open your web browser and go to http://127.0.0.1:5000/ to access the salary prediction web application.
 Enter the years of experience, and the application will provide a salary prediction.
-Dependencies
-
+4.Dependencies
 Flask
 NumPy
 Pandas
 Scikit-learn
 Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please create a new issue or submit a pull request.
+5.Contributions are welcome! If you find any issues or have suggestions for improvement, please create a new issue or submit a pull request.
 
-License
+6.License
 
 This project is licensed under the MIT License.
