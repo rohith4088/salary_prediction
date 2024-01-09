@@ -14,6 +14,10 @@ jobs:
       # Check-out your repository.
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
@@ -53,6 +57,7 @@ jobs:
           # By default, this argument is set to "web".
           # For more information look at https://devcenter.heroku.com/articles/process-model
           process_type: web
+       
           
    
           
